@@ -1,0 +1,43 @@
+.center {
+	text-align: center;
+}
+
+.header {
+	height: 100vh;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ), url("https://assetsio.reedpopcdn.com/-1550052668138.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp") center top no-repeat;
+	background-size: cover;
+}
+
+.title {
+	color: white;
+	padding-top: calc( 50vh - 25px );
+}
+
+.title h1 {
+	font-size: 4.5em;
+}
+
+.title h3 {
+	font-size: 1.5em;
+}
+
+.main {
+	margin-bottom: 50px;
+}
+
+.main p {
+	font-size: 1.2em;
+}
+
+.main h3 {
+	font-size: 1.5em;
+}
+
+.footer p {
+	color: rgb(50,50,50);
+	background-color: rgb(240,240,240);
+	padding: 15px 0;
+}
